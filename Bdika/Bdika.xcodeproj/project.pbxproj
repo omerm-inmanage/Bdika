@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7F365B1268D97EB0018D734 /* Bdika.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F365A3268D97EB0018D734 /* Bdika.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7F365E1268D98500018D734 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365BA268D98500018D734 /* Constants.swift */; };
+		C7F365E2268D98500018D734 /* ParseValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365BC268D98500018D734 /* ParseValidator.swift */; };
+		C7F365E3268D98500018D734 /* PaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365BE268D98500018D734 /* PaymentManager.swift */; };
+		C7F365E4268D98500018D734 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365BF268D98500018D734 /* NetworkManager.swift */; };
+		C7F365E5268D98500018D734 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365C0268D98500018D734 /* SessionManager.swift */; };
+		C7F365E6268D98500018D734 /* StartupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365C1268D98500018D734 /* StartupManager.swift */; };
+		C7F365E7268D98500018D734 /* NSObjectExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365C3268D98500018D734 /* NSObjectExtenstion.swift */; };
+		C7F365E8268D98500018D734 /* BitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365C4268D98500018D734 /* BitViewController.swift */; };
+		C7F365E9268D98500018D734 /* SettleSuspendedTransactionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365C7268D98500018D734 /* SettleSuspendedTransactionRequest.swift */; };
+		C7F365EA268D98500018D734 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365C8268D98500018D734 /* BaseRequest.swift */; };
+		C7F365EB268D98500018D734 /* GetBitPaymentStatusRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365C9268D98500018D734 /* GetBitPaymentStatusRequest.swift */; };
+		C7F365EC268D98500018D734 /* InitSDKRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365CA268D98500018D734 /* InitSDKRequest.swift */; };
+		C7F365ED268D98500018D734 /* DoPaymentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365CB268D98500018D734 /* DoPaymentRequest.swift */; };
+		C7F365EE268D98500018D734 /* GetPaymentProcessInfoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365CC268D98500018D734 /* GetPaymentProcessInfoRequest.swift */; };
+		C7F365EF268D98500018D734 /* SetBitPaymentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365CD268D98500018D734 /* SetBitPaymentRequest.swift */; };
+		C7F365F0268D98500018D734 /* CreatePaymentProcessRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365CE268D98500018D734 /* CreatePaymentProcessRequest.swift */; };
+		C7F365F1268D98500018D734 /* CancelBitPaymentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365CF268D98500018D734 /* CancelBitPaymentRequest.swift */; };
+		C7F365F2268D98500018D734 /* SetBitPaymentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365D1268D98500018D734 /* SetBitPaymentResponse.swift */; };
+		C7F365F3268D98500018D734 /* GetPaymentProcessInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365D2268D98500018D734 /* GetPaymentProcessInfoResponse.swift */; };
+		C7F365F4268D98500018D734 /* DoPaymentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365D3268D98500018D734 /* DoPaymentResponse.swift */; };
+		C7F365F5268D98500018D734 /* GetBitPaymentStatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365D4268D98500018D734 /* GetBitPaymentStatusResponse.swift */; };
+		C7F365F6268D98500018D734 /* BaseServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365D5268D98500018D734 /* BaseServerResponse.swift */; };
+		C7F365F7268D98500018D734 /* CancelBitPaymentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365D6268D98500018D734 /* CancelBitPaymentResponse.swift */; };
+		C7F365F8268D98500018D734 /* InitSDKResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365D7268D98500018D734 /* InitSDKResponse.swift */; };
+		C7F365F9268D98500018D734 /* SettleSuspendedTransactionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365D8268D98500018D734 /* SettleSuspendedTransactionResponse.swift */; };
+		C7F365FA268D98500018D734 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365D9268D98500018D734 /* ErrorResponse.swift */; };
+		C7F365FB268D98500018D734 /* BaseInnerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365DA268D98500018D734 /* BaseInnerResponse.swift */; };
+		C7F365FC268D98500018D734 /* CreatePaymentProcessResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365DB268D98500018D734 /* CreatePaymentProcessResponse.swift */; };
+		C7F365FD268D98500018D734 /* Meshulam.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365DC268D98500018D734 /* Meshulam.swift */; };
+		C7F365FE268D98500018D734 /* MainS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F365DD268D98500018D734 /* MainS.storyboard */; };
+		C7F365FF268D98500018D734 /* RequestFinishedProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365DF268D98500018D734 /* RequestFinishedProtocol.swift */; };
+		C7F36600268D98500018D734 /* MeshulamDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F365E0268D98500018D734 /* MeshulamDelegate.swift */; };
+		D0E9BA27AA2AE602393B5322 /* Pods_Bdika.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ECE45A3BA37CDDD69DA2FE9 /* Pods_Bdika.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0ECE45A3BA37CDDD69DA2FE9 /* Pods_Bdika.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bdika.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B693FA8B8CD2902AA8A3A6B /* Pods-Bdika.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bdika.release.xcconfig"; path = "Target Support Files/Pods-Bdika/Pods-Bdika.release.xcconfig"; sourceTree = "<group>"; };
+		7015F360F51AA9B736F2B015 /* Pods-Bdika.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bdika.debug.xcconfig"; path = "Target Support Files/Pods-Bdika/Pods-Bdika.debug.xcconfig"; sourceTree = "<group>"; };
+		C7F365A0268D97EB0018D734 /* Bdika.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bdika.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F365A3268D97EB0018D734 /* Bdika.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bdika.h; sourceTree = "<group>"; };
+		C7F365A4268D97EB0018D734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F365BA268D98500018D734 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C7F365BC268D98500018D734 /* ParseValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseValidator.swift; sourceTree = "<group>"; };
+		C7F365BE268D98500018D734 /* PaymentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentManager.swift; sourceTree = "<group>"; };
+		C7F365BF268D98500018D734 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C7F365C0268D98500018D734 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		C7F365C1268D98500018D734 /* StartupManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartupManager.swift; sourceTree = "<group>"; };
+		C7F365C3268D98500018D734 /* NSObjectExtenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtenstion.swift; sourceTree = "<group>"; };
+		C7F365C4268D98500018D734 /* BitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitViewController.swift; sourceTree = "<group>"; };
+		C7F365C7268D98500018D734 /* SettleSuspendedTransactionRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettleSuspendedTransactionRequest.swift; sourceTree = "<group>"; };
+		C7F365C8268D98500018D734 /* BaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		C7F365C9268D98500018D734 /* GetBitPaymentStatusRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetBitPaymentStatusRequest.swift; sourceTree = "<group>"; };
+		C7F365CA268D98500018D734 /* InitSDKRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitSDKRequest.swift; sourceTree = "<group>"; };
+		C7F365CB268D98500018D734 /* DoPaymentRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoPaymentRequest.swift; sourceTree = "<group>"; };
+		C7F365CC268D98500018D734 /* GetPaymentProcessInfoRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPaymentProcessInfoRequest.swift; sourceTree = "<group>"; };
+		C7F365CD268D98500018D734 /* SetBitPaymentRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetBitPaymentRequest.swift; sourceTree = "<group>"; };
+		C7F365CE268D98500018D734 /* CreatePaymentProcessRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePaymentProcessRequest.swift; sourceTree = "<group>"; };
+		C7F365CF268D98500018D734 /* CancelBitPaymentRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelBitPaymentRequest.swift; sourceTree = "<group>"; };
+		C7F365D1268D98500018D734 /* SetBitPaymentResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetBitPaymentResponse.swift; sourceTree = "<group>"; };
+		C7F365D2268D98500018D734 /* GetPaymentProcessInfoResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPaymentProcessInfoResponse.swift; sourceTree = "<group>"; };
+		C7F365D3268D98500018D734 /* DoPaymentResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoPaymentResponse.swift; sourceTree = "<group>"; };
+		C7F365D4268D98500018D734 /* GetBitPaymentStatusResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetBitPaymentStatusResponse.swift; sourceTree = "<group>"; };
+		C7F365D5268D98500018D734 /* BaseServerResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseServerResponse.swift; sourceTree = "<group>"; };
+		C7F365D6268D98500018D734 /* CancelBitPaymentResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelBitPaymentResponse.swift; sourceTree = "<group>"; };
+		C7F365D7268D98500018D734 /* InitSDKResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitSDKResponse.swift; sourceTree = "<group>"; };
+		C7F365D8268D98500018D734 /* SettleSuspendedTransactionResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettleSuspendedTransactionResponse.swift; sourceTree = "<group>"; };
+		C7F365D9268D98500018D734 /* ErrorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		C7F365DA268D98500018D734 /* BaseInnerResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseInnerResponse.swift; sourceTree = "<group>"; };
+		C7F365DB268D98500018D734 /* CreatePaymentProcessResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePaymentProcessResponse.swift; sourceTree = "<group>"; };
+		C7F365DC268D98500018D734 /* Meshulam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meshulam.swift; sourceTree = "<group>"; };
+		C7F365DD268D98500018D734 /* MainS.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainS.storyboard; sourceTree = "<group>"; };
+		C7F365DF268D98500018D734 /* RequestFinishedProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestFinishedProtocol.swift; sourceTree = "<group>"; };
+		C7F365E0268D98500018D734 /* MeshulamDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeshulamDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7F3659D268D97EB0018D734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E9BA27AA2AE602393B5322 /* Pods_Bdika.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070B79A2A636B1B6D684BF39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7015F360F51AA9B736F2B015 /* Pods-Bdika.debug.xcconfig */,
+				3B693FA8B8CD2902AA8A3A6B /* Pods-Bdika.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F38B1E59376B87061D68CFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0ECE45A3BA37CDDD69DA2FE9 /* Pods_Bdika.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7F36596268D97EB0018D734 = {
+			isa = PBXGroup;
+			children = (
+				C7F365A2268D97EB0018D734 /* Bdika */,
+				C7F365A1268D97EB0018D734 /* Products */,
+				070B79A2A636B1B6D684BF39 /* Pods */,
+				5F38B1E59376B87061D68CFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7F365A1268D97EB0018D734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7F365A0268D97EB0018D734 /* Bdika.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7F365A2268D97EB0018D734 /* Bdika */ = {
+			isa = PBXGroup;
+			children = (
+				C7F365C5268D98500018D734 /* Api */,
+				C7F365C4268D98500018D734 /* BitViewController.swift */,
+				C7F365BA268D98500018D734 /* Constants.swift */,
+				C7F365C2268D98500018D734 /* Extenstions */,
+				C7F365DD268D98500018D734 /* MainS.storyboard */,
+				C7F365BD268D98500018D734 /* Managers */,
+				C7F365DC268D98500018D734 /* Meshulam.swift */,
+				C7F365DE268D98500018D734 /* Protocols */,
+				C7F365BB268D98500018D734 /* Validators */,
+				C7F365A3268D97EB0018D734 /* Bdika.h */,
+				C7F365A4268D97EB0018D734 /* Info.plist */,
+			);
+			path = Bdika;
+			sourceTree = "<group>";
+		};
+		C7F365BB268D98500018D734 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				C7F365BC268D98500018D734 /* ParseValidator.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		C7F365BD268D98500018D734 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C7F365BE268D98500018D734 /* PaymentManager.swift */,
+				C7F365BF268D98500018D734 /* NetworkManager.swift */,
+				C7F365C0268D98500018D734 /* SessionManager.swift */,
+				C7F365C1268D98500018D734 /* StartupManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C7F365C2268D98500018D734 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				C7F365C3268D98500018D734 /* NSObjectExtenstion.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		C7F365C5268D98500018D734 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				C7F365C6268D98500018D734 /* Requestes */,
+				C7F365D0268D98500018D734 /* Responses */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		C7F365C6268D98500018D734 /* Requestes */ = {
+			isa = PBXGroup;
+			children = (
+				C7F365C7268D98500018D734 /* SettleSuspendedTransactionRequest.swift */,
+				C7F365C8268D98500018D734 /* BaseRequest.swift */,
+				C7F365C9268D98500018D734 /* GetBitPaymentStatusRequest.swift */,
+				C7F365CA268D98500018D734 /* InitSDKRequest.swift */,
+				C7F365CB268D98500018D734 /* DoPaymentRequest.swift */,
+				C7F365CC268D98500018D734 /* GetPaymentProcessInfoRequest.swift */,
+				C7F365CD268D98500018D734 /* SetBitPaymentRequest.swift */,
+				C7F365CE268D98500018D734 /* CreatePaymentProcessRequest.swift */,
+				C7F365CF268D98500018D734 /* CancelBitPaymentRequest.swift */,
+			);
+			path = Requestes;
+			sourceTree = "<group>";
+		};
+		C7F365D0268D98500018D734 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				C7F365D1268D98500018D734 /* SetBitPaymentResponse.swift */,
+				C7F365D2268D98500018D734 /* GetPaymentProcessInfoResponse.swift */,
+				C7F365D3268D98500018D734 /* DoPaymentResponse.swift */,
+				C7F365D4268D98500018D734 /* GetBitPaymentStatusResponse.swift */,
+				C7F365D5268D98500018D734 /* BaseServerResponse.swift */,
+				C7F365D6268D98500018D734 /* CancelBitPaymentResponse.swift */,
+				C7F365D7268D98500018D734 /* InitSDKResponse.swift */,
+				C7F365D8268D98500018D734 /* SettleSuspendedTransactionResponse.swift */,
+				C7F365D9268D98500018D734 /* ErrorResponse.swift */,
+				C7F365DA268D98500018D734 /* BaseInnerResponse.swift */,
+				C7F365DB268D98500018D734 /* CreatePaymentProcessResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		C7F365DE268D98500018D734 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C7F365DF268D98500018D734 /* RequestFinishedProtocol.swift */,
+				C7F365E0268D98500018D734 /* MeshulamDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C7F3659B268D97EB0018D734 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F365B1268D97EB0018D734 /* Bdika.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C7F3659F268D97EB0018D734 /* Bdika */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F365B4268D97EB0018D734 /* Build configuration list for PBXNativeTarget "Bdika" */;
+			buildPhases = (
+				2688C3F76B9934B700E6C57F /* [CP] Check Pods Manifest.lock */,
+				C7F3659B268D97EB0018D734 /* Headers */,
+				C7F3659C268D97EB0018D734 /* Sources */,
+				C7F3659D268D97EB0018D734 /* Frameworks */,
+				C7F3659E268D97EB0018D734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bdika;
+			productName = Bdika;
+			productReference = C7F365A0268D97EB0018D734 /* Bdika.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7F36597268D97EB0018D734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C7F3659F268D97EB0018D734 = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = C7F3659A268D97EB0018D734 /* Build configuration list for PBXProject "Bdika" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7F36596268D97EB0018D734;
+			productRefGroup = C7F365A1268D97EB0018D734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7F3659F268D97EB0018D734 /* Bdika */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7F3659E268D97EB0018D734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F365FE268D98500018D734 /* MainS.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2688C3F76B9934B700E6C57F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bdika-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7F3659C268D97EB0018D734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F365EA268D98500018D734 /* BaseRequest.swift in Sources */,
+				C7F365E8268D98500018D734 /* BitViewController.swift in Sources */,
+				C7F365F6268D98500018D734 /* BaseServerResponse.swift in Sources */,
+				C7F365F3268D98500018D734 /* GetPaymentProcessInfoResponse.swift in Sources */,
+				C7F365F0268D98500018D734 /* CreatePaymentProcessRequest.swift in Sources */,
+				C7F365FC268D98500018D734 /* CreatePaymentProcessResponse.swift in Sources */,
+				C7F36600268D98500018D734 /* MeshulamDelegate.swift in Sources */,
+				C7F365F8268D98500018D734 /* InitSDKResponse.swift in Sources */,
+				C7F365EF268D98500018D734 /* SetBitPaymentRequest.swift in Sources */,
+				C7F365E4268D98500018D734 /* NetworkManager.swift in Sources */,
+				C7F365ED268D98500018D734 /* DoPaymentRequest.swift in Sources */,
+				C7F365EB268D98500018D734 /* GetBitPaymentStatusRequest.swift in Sources */,
+				C7F365E9268D98500018D734 /* SettleSuspendedTransactionRequest.swift in Sources */,
+				C7F365F7268D98500018D734 /* CancelBitPaymentResponse.swift in Sources */,
+				C7F365E3268D98500018D734 /* PaymentManager.swift in Sources */,
+				C7F365F5268D98500018D734 /* GetBitPaymentStatusResponse.swift in Sources */,
+				C7F365E2268D98500018D734 /* ParseValidator.swift in Sources */,
+				C7F365F9268D98500018D734 /* SettleSuspendedTransactionResponse.swift in Sources */,
+				C7F365E7268D98500018D734 /* NSObjectExtenstion.swift in Sources */,
+				C7F365E5268D98500018D734 /* SessionManager.swift in Sources */,
+				C7F365FD268D98500018D734 /* Meshulam.swift in Sources */,
+				C7F365F2268D98500018D734 /* SetBitPaymentResponse.swift in Sources */,
+				C7F365E1268D98500018D734 /* Constants.swift in Sources */,
+				C7F365EE268D98500018D734 /* GetPaymentProcessInfoRequest.swift in Sources */,
+				C7F365F1268D98500018D734 /* CancelBitPaymentRequest.swift in Sources */,
+				C7F365EC268D98500018D734 /* InitSDKRequest.swift in Sources */,
+				C7F365FB268D98500018D734 /* BaseInnerResponse.swift in Sources */,
+				C7F365F4268D98500018D734 /* DoPaymentResponse.swift in Sources */,
+				C7F365FF268D98500018D734 /* RequestFinishedProtocol.swift in Sources */,
+				C7F365E6268D98500018D734 /* StartupManager.swift in Sources */,
+				C7F365FA268D98500018D734 /* ErrorResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C7F365B2268D97EB0018D734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7F365B3268D97EB0018D734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7F365B5268D97EB0018D734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7015F360F51AA9B736F2B015 /* Pods-Bdika.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZW9DGWZF4V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Bdika/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inmanage.Bdika;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7F365B6268D97EB0018D734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B693FA8B8CD2902AA8A3A6B /* Pods-Bdika.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZW9DGWZF4V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Bdika/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inmanage.Bdika;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7F3659A268D97EB0018D734 /* Build configuration list for PBXProject "Bdika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F365B2268D97EB0018D734 /* Debug */,
+				C7F365B3268D97EB0018D734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7F365B4268D97EB0018D734 /* Build configuration list for PBXNativeTarget "Bdika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F365B5268D97EB0018D734 /* Debug */,
+				C7F365B6268D97EB0018D734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7F36597268D97EB0018D734 /* Project object */;
+}
