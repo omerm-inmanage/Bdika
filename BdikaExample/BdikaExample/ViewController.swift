@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Bdika
+
 
 class ViewController: UIViewController {
 

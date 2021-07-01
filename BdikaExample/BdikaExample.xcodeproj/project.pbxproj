@@ -180,6 +180,7 @@
 				C7F36606268D9ADD0018D734 /* Sources */,
 				C7F36607268D9ADD0018D734 /* Frameworks */,
 				C7F36608268D9ADD0018D734 /* Resources */,
+				06D9C0EBE081D111A8DE1A43 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +218,7 @@
 				C7F36627268D9ADF0018D734 /* Sources */,
 				C7F36628268D9ADF0018D734 /* Frameworks */,
 				C7F36629268D9ADF0018D734 /* Resources */,
+				0EA2C2535AE025C93F961BF5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -318,6 +320,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06D9C0EBE081D111A8DE1A43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BdikaExample/Pods-BdikaExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BdikaExample/Pods-BdikaExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BdikaExample/Pods-BdikaExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0EA2C2535AE025C93F961BF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BdikaExample-BdikaExampleUITests/Pods-BdikaExample-BdikaExampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BdikaExample-BdikaExampleUITests/Pods-BdikaExample-BdikaExampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BdikaExample-BdikaExampleUITests/Pods-BdikaExample-BdikaExampleUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0F82B62715CCCC8160D340D1 /* [CP] Check Pods Manifest.lock */ = {

@@ -1,0 +1,11 @@
+framework module Bdika {
+  umbrella header "Bdika.h"
+
+  export *
+  module * { export * }
+}
+
+module Bdika.Swift {
+    header "Bdika-Swift.h"
+    requires objc
+}

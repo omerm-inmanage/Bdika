@@ -12,13 +12,13 @@
     "Zhihui Tang": "crafttang@gmail.com"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
   "ios": {
     "vendored_frameworks": "Bdika.framework"
   },
   "source": {
-    "git": "http://github.com/omerm-inmanage/Bdika.git",
+    "git": "https://github.com/omerm-inmanage/Bdika.git",
     "tag": "0.0.1"
   },
   "exclude_files": "Classes/Exclude"
