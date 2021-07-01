@@ -15,13 +15,14 @@ Pod::Spec.new do |s|
   A nice logger tool in Swift. Cheers
                    DESC
 
-  s.homepage     = "https://github.com/zhihuitang"
+  s.homepage     = "https://github.com/omerm-inmanage/Bdika"
   s.license      = { :type => "MIT", :file => "license" }
   s.author             = { "Zhihui Tang" => "crafttang@gmail.com" }
   s.ios.deployment_target = '8.0'
   s.ios.vendored_frameworks = 'Bdika.framework'
-  s.source            = { :http => 'https://s3.amazonaws.com/elasticbeanstalk-us-east-1-564874457370/NiceLogger.zip' }
+  # s.source            = { :http => 'https://s3.amazonaws.com/elasticbeanstalk-us-east-1-564874457370/NiceLogger.zip' }
+  s.source           = { :git => 'http://github.com/omerm-inmanage/Bdika.git', :tag => s.version.to_s }
   s.exclude_files = "Classes/Exclude"
 
-
+  #https://github.com/omerm-inmanage/Bdika.git
 end

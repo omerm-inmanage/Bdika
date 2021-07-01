@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'BdikaExample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  pod 'Bdika', :path => '../Bdika.podspec'
+
+  # Pods for BdikaExample
+
+  target 'BdikaExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'BdikaExampleUITests' do
+    # Pods for testing
+  end
+
+end

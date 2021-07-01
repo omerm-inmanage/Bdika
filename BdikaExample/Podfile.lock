@@ -1,0 +1,16 @@
+PODS:
+  - Bdika (0.0.1)
+
+DEPENDENCIES:
+  - Bdika (from `../Bdika.podspec`)
+
+EXTERNAL SOURCES:
+  Bdika:
+    :path: "../Bdika.podspec"
+
+SPEC CHECKSUMS:
+  Bdika: 9444e6a090a1490db406183b548d85e9a1cf5698
+
+PODFILE CHECKSUM: 4471a6d7bd24acd6e30c7b9857bdb357ae0bdcb4
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module Pods_BdikaExample_BdikaExampleUITests {
+  umbrella header "Pods-BdikaExample-BdikaExampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
